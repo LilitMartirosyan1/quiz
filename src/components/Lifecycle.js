@@ -4,10 +4,10 @@ export default class Lifecycle extends Component {
 
     constructor(props){
         console.log(props)
-
         super(props);
         this.state = {
-            favoriteColor:'red'
+            favoriteColor:'red',
+            a:1
         }
         console.log('constructor')
     }
@@ -18,6 +18,12 @@ export default class Lifecycle extends Component {
         console.log('render')
         return(
             <div>
+                <h1>My favorite color is {this.state.favoriteColor}</h1>
+                <h1>My favorite color is {this.state.favoriteColor}</h1>
+                <h1>My favorite color is {this.state.favoriteColor}</h1>
+                <h1>My favorite color is {this.state.favoriteColor}</h1>
+                <h1>My favorite color is {this.state.favoriteColor}</h1>
+                <h1>My favorite color is {this.state.favoriteColor}</h1>
                 <h1>My favorite color is {this.state.favoriteColor}</h1>
             </div>
         )

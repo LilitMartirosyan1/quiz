@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import Registration from "./components/Registration";
 import './App.css'
 import Hook from "./components/Hook";
+
 import Lifecycle from "./components/Lifecycle";
+import Quiz from "./components/Quiz/Quiz";
 
 
 export default class App extends Component {
@@ -58,6 +60,7 @@ export default class App extends Component {
                 <Registration/>
                 {/*<Hook/>*/}
                 <Lifecycle/>
+                <Quiz/>
             </div>
         )
     }
