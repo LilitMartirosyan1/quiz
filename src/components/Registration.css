@@ -1,0 +1,15 @@
+.container-reg{
+    display: flex;
+    justify-content: center;
+}
+.container-reg>div{
+    margin: 2%;
+}
+input{
+    display: block;
+    padding: 5px;
+    margin: 10px 0;
+}
+.warning{
+    border: 2px solid red;
+}
